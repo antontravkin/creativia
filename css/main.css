@@ -3,11 +3,14 @@
     padding: 0;
 }
 html, body{
+
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     color: #505050;
+    min-width: 320px;
+    line-height: 1.75;
 }
 ul, li, a{
     text-decoration: none;
@@ -126,7 +129,7 @@ section{
 .header__button-btn:hover{
     background: #000;
 }
-.about__head{
+.head{
     text-align: center;
 }
 .text__bold{
@@ -136,6 +139,7 @@ section{
     color: #262626;
 }
 .about__content{
+    
     padding: 2rem 0;
     display: flex;
     flex-wrap: wrap-reverse;
@@ -152,6 +156,7 @@ section{
     display: flex;
     align-items: center;
     width: 50%;
+    min-width: 300px;
     justify-content: center;
 }
 .content__img1{
@@ -260,19 +265,18 @@ section{
     text-align: center;
     
 }
-.white{
+.text_white{
     color: #fff;
 }
 .portfolio__menu{
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    padding: 1rem;
 }
 .portfolio__menu-link{
     font-size: 0.8em;
     color: #a4a4a4;
-    padding: 1rem;
+    padding: 0 1rem;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -282,11 +286,65 @@ section{
     color: #ff0036;
 }
 .portfolio_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
+    padding: 3rem 0;
+}
+.max__bl{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 50%;
+    min-width: 320px;
+}
+.bl{    
+    width: 60%;
+    background: #f39943;
+}
+.bl2{
+    width: 40%;
+    background: #3782aa;
+}
+.bl3{
+    width: 60%;
+    background: #ef5d88;
+}
+
+.bl4{
+    width: 40%;
+    background: #f6f0e0;
+}
+
+.bl5{
+    width: 40%;
+    background: #56cc82;
+}
+
+.bl6{
+    width: 60%;
+    background: #95a5a5;
+}
+.bl7{
+    width: 40%;
+    background: #24b0c9;
+}
+
+.bl8{
+    width: 60%;
+    background: #fa8562;
+}
+.bl__img{
+    width: 100%;
+    height: 100%;
+}
+
+.product{
+    position: relative;
 }
 .line__red{
     position: absolute;
-    bottom: 0;
+    top: 0;
     margin: auto;
     left: 0;
     right: 0;

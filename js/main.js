@@ -6,7 +6,7 @@ $(document).ready(function() {
         $('body,html').animate({scrollTop: top}, 1500);
     });
 	$('.about__info').on('click', '.info', function() {
-        $(this).toggleClass('text_red').siblings('.info__text').slideToggle(0);
+        $(this).toggleClass('text_red').siblings('.info__text').slideToggle(400);
         $(this).find('i').toggleClass('fa-minus-circle').toggleClass('fa-plus-circle');
 	});
 });
