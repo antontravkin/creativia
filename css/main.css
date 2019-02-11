@@ -25,6 +25,11 @@ h2{
     font-size: 2em;
     padding: 2rem 0;
 }
+h5{
+    font-size: 1rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
 section{
     padding: 3rem 0;
 }
@@ -349,4 +354,159 @@ section{
     left: 0;
     right: 0;
     background: #ff0036;
+}
+.product__content{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    padding-top: 2rem;
+    margin: 4rem 0;
+
+    
+}
+.product__cl1{
+    margin-top: 4rem;
+    text-align: right;
+    width: 33%;
+    min-width: 320px;
+}
+.product__cl2{
+    position: relative;
+    text-align: center;
+    width: 34%;
+    min-width: 320px;
+}
+.product__cl3{
+    margin-top: 4rem;
+    text-align: left;
+    width: 33%;
+    min-width: 320px;
+}
+.chek{
+    vertical-align: middle;
+    margin: 0 0.5rem;
+
+}
+.product_img{
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 346px;
+}
+.product__cat{
+    border: 1px solid #e7e7e7;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.product__btn{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: -8rem;
+}
+.product__button{
+    background: #393939;
+    transition: none;
+    margin: 1rem 1rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+}
+
+.clients{
+    background: url(/img/clints_bg.jpg);
+    background-size: cover;
+    width: 100%;
+    margin-top: 11rem;
+    position: relative;
+    padding: 0;
+}
+.clints__fon{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    padding: 4rem 0;
+}
+
+.white{
+    color: #fff;
+}
+.grey{
+    color: #a4a4a4;
+}
+.clints__cl1{
+    padding: .5rem 1rem;
+    text-align: center;
+    width: 50%;
+}
+.contetnt__title{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+.clints__content{
+    display: flex;
+    margin-top: 4rem;
+}
+.content__text{
+    margin: 3rem 0;
+    font-size: .8rem;
+}
+.client__name{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.nav__clients{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.nav__client{
+    background: #fff;
+    width: 7px;
+    height: 7px;
+    margin: .5rem;
+    cursor: pointer;
+}
+.client__active{
+    background: red;
+}
+.clints__cl2{
+    width: 50%;
+}
+.squaer{
+    position: relative;
+    margin-right: 1rem;
+    width: 25px;
+    height: 25px;
+    background: #222222;
+}
+.client__btn{
+    background-image: radial-gradient(#f4f4f4, #878787);
+    border: 0;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    width: 100%;
+    height: 112px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn__cl1{
+    display: flex;
+    width: 100%;
+}
+.btn__cl2{
+    display: flex;
+    width: 100%;
+}
+.squaer__img{
+   position: absolute;
+    top: 0;
+    right: 0; 
 }
