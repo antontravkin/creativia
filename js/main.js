@@ -30,13 +30,13 @@ $(document).ready(function() {
     
     var $win = $(window);
     var $marker = $('.skills');
-$win.scroll(function() {
-    if($win.scrollTop() + $win.height() >= $marker.offset().top) {
-        if(a)
-            x();
-    }
-});
-
+    $win.scroll(function() {
+        if($win.scrollTop() + $win.height() >= $marker.offset().top) {
+            if(a)
+                x();
+        }
+    });
+    
     
     
 });
